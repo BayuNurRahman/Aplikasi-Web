@@ -35,7 +35,7 @@ img {
 
 def main():
     html_temp = """
-	<div style="background-color:yellow;"><p style="color:black;font-size:40px;padding:9px">Crawling Twitter Data Sentiment</p></div>
+	<div style="background-color:transparent;"><p style="color:black;font-size:40px;padding:9px">Crawling Twitter Data Sentiment</p></div>
 	"""
     st.markdown(html_temp, unsafe_allow_html=True)
     
