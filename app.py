@@ -97,7 +97,7 @@ def main():
     
     # Collect Input from user :
     Topic = str()
-    Topic = str(st.text_input("Masukkan topik yang ingin anda cari: (Tekan Enter)"))     
+    Topic = str(st.text_input("Masukkan topik yang ingin anda cari: "))     
     
     if len(Topic) > 0 :
         
